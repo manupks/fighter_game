@@ -5,18 +5,18 @@ import math
 pygame.init()
 
 screen = pygame.display.set_mode((800, 600))
-pygame.display.set_caption('Fighter Shooter')
-icon = pygame.image.load("fight.png")
+pygame.display.set_caption('images/Fighter Shooter')
+icon = pygame.image.load("images/fight.png")
 pygame.display.set_icon(icon)
 
-bg_img = pygame.image.load('background.png')
+bg_img = pygame.image.load('images/background.png')
 
 font = pygame.font.Font('freesansbold.ttf', 32)
 over_font = pygame.font.Font('freesansbold.ttf', 64)
 
-ftimage = pygame.image.load('arcade-game.png')
-enemy_img = pygame.image.load('art.png')
-bullet_img = pygame.image.load('bullet.png')
+ftimage = pygame.image.load('images/arcade-game.png')
+enemy_img = pygame.image.load('images/art.png')
+bullet_img = pygame.image.load('images/bullet.png')
 
 ftx = 370
 fty = 480
